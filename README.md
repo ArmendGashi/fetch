@@ -156,7 +156,7 @@ header hack.
 
 ### Webpack usage
 
-To use fetch with webpack, you will need `import-loader`, `export-loader`, `es6-promise` and require it this way:
+To use fetch with webpack, you will need `imports-loader`, `exports-loader`, `es6-promise` and require it this way:
 
 ```javascript
 var fetch = require('imports?self=>{},es6p=es6-promise,Promise=>es6p.Promise!exports?self.fetch!whatwg-fetch');
